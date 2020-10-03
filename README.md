@@ -1,8 +1,6 @@
 ![](http://nepxion.gitee.io/docs/polaris-doc/Banner.png)
 
 # Polaris【北极星】企业级云原生微服务框架
-[![Total lines](https://tokei.rs/b1/github/Nepxion/Polaris?category=lines)](https://tokei.rs/b1/github/Nepxion/Polaris?category=lines)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?label=license)](https://github.com/Nepxion/Polaris/blob/master/LICENSE)  [![Build Status](https://travis-ci.org/Nepxion/Discovery.svg?branch=master)](https://travis-ci.org/Nepxion/Discovery)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e39a24e1be740c58b83fb81763ba317)](https://www.codacy.com/project/HaojunRen/Discovery/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nepxion/Discovery&amp;utm_campaign=Badge_Grade_Dashboard)  [![Stars](https://img.shields.io/github/stars/Nepxion/Polaris.svg?label=Stars&tyle=flat&logo=GitHub)](https://github.com/Nepxion/Polaris/stargazers)  [![Stars](https://gitee.com/Nepxion/Polaris/badge/star.svg)](https://gitee.com/nepxion/Polaris/stargazers)
-
 [![Spring Boot](https://img.shields.io/maven-central/v/org.springframework.boot/spring-boot-dependencies.svg?label=Spring%20Boot&logo=Spring)](https://search.maven.org/artifact/org.springframework.boot/spring-boot-dependencies)  [![Spring Cloud](https://img.shields.io/maven-central/v/org.springframework.cloud/spring-cloud-dependencies.svg?label=Spring%20Cloud&logo=Spring)](https://search.maven.org/artifact/org.springframework.cloud/spring-cloud-dependencies)  [![Spring Cloud Alibaba](https://img.shields.io/maven-central/v/com.alibaba.cloud/spring-cloud-alibaba-dependencies.svg?label=Spring%20Cloud%20Alibaba&logo=Spring)](https://search.maven.org/artifact/com.alibaba.cloud/spring-cloud-alibaba-dependencies)  [![Nepxion Discovery](https://img.shields.io/maven-central/v/com.nepxion/discovery.svg?label=Nepxion%20Discovery&logo=Anaconda)](https://search.maven.org/artifact/com.nepxion/discovery)
 
 [![Polaris DOC PDF](https://img.shields.io/badge/Polaris%20Doc-PDF-brightgreen?logo=Adobe%20Acrobat%20Reader)](http://nepxion.gitee.io/docs/link-doc/polaris-pdf.html)  [![Polaris DOC HTML](https://img.shields.io/badge/Polaris%20Doc-HTML-brightgreen?logo=Microsoft%20Edge)](http://nepxion.gitee.io/docs/link-doc/polaris-html.html)
@@ -16,12 +14,12 @@
 - [Polaris【北极星】企业级云原生微服务框架(HTML版)](http://nepxion.gitee.io/docs/link-doc/polaris-html.html)
 
 ② Polaris【北极星】企业级云原生微服务框架源码。请访问Gitee镜像获得最佳体验
-- [源码Gitee同步镜像](https://gitee.com/Nepxion/Polaris)
-- [源码Github原镜像](https://github.com/Nepxion/Polaris)
+- [源码Gitee同步镜像](https://gitee.com/polaris-paas/polaris-sdk)
+- [源码Github原镜像](https://github.com/polaris-paas/polaris-sdk)
 
 ③ Polaris【北极星】企业级云原生微服务框架指南示例源码。请访问Gitee镜像获得最佳体验
-- [指南Gitee同步镜像](https://gitee.com/Nepxion/PolarisGuide)
-- [指南Github原镜像](https://github.com/Nepxion/PolarisGuide)
+- [指南Gitee同步镜像](https://gitee.com/polaris-paas/polaris-guide)
+- [指南Github原镜像](https://github.com/polaris-paas/polaris-guide)
 
 ![](http://nepxion.gitee.io/docs/discovery-doc/Logo64.png) Discovery【探索】微服务企业级解决方案
 
