@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "f9f6990f-42d1-4f28-b3d1-5edef44e1924",
+		"name": "Polaris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Polaris网关测试用例",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "n-d-version",
+						"type": "text",
+						"value": "{\"polaris-service-a\":\"1.1\", \"polaris-service-b\":\"1.1\"}",
+						"disabled": true
+					},
+					{
+						"key": "n-d-version-weight",
+						"type": "text",
+						"value": "{\"polaris-service-a\":\"1.0=90;1.1=10\", \"polaris-service-b\":\"1.0=20;1.1=80\"}",
+						"disabled": true
+					},
+					{
+						"key": "n-d-region",
+						"type": "text",
+						"value": "qa",
+						"disabled": true
+					},
+					{
+						"key": "n-d-region-weight",
+						"type": "text",
+						"value": "dev=99;qa=1",
+						"disabled": true
+					},
+					{
+						"key": "n-d-address",
+						"type": "text",
+						"value": "{\"polaris-service-a\":\"3001\", \"polaris-service-b\":\"4002\"}",
+						"disabled": true
+					},
+					{
+						"key": "n-d-env",
+						"value": "env1",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "n-d-id-blacklist",
+						"value": "211783d6-1df0-40d0-8ac0-bf3fb4ac0b37;e74c1478-fbe9-41ac-aa41-7fb9fb2a58b4",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "n-d-address-blacklist",
+						"value": "3*2;4001",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "n-d-service-app-id",
+						"value": "1.0&zhangsan",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "mobile",
+						"type": "text",
+						"value": "13312345678",
+						"disabled": true
+					},
+					{
+						"key": "app-version",
+						"value": "1.0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "user",
+						"type": "text",
+						"value": "zhangsan",
+						"disabled": true
+					},
+					{
+						"key": "trace-id",
+						"value": "12345678",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "span-id",
+						"value": "abcdefgh",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "domain",
+						"value": "www",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "token",
+						"value": "abc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "gateway",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5002/polaris-service-a/invoke",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5002",
+					"path": [
+						"polaris-service-a",
+						"invoke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Polaris网关全链路侦测测试用例",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "n-d-version",
+						"type": "text",
+						"value": "{\"polaris-service-a\":\"1.1\", \"polaris-service-b\":\"1.1\"}",
+						"disabled": true
+					},
+					{
+						"key": "n-d-region",
+						"value": "qa",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "n-d-env",
+						"value": "env1",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"serviceIdList\":[\"polaris-service-b\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5002/polaris-service-a/inspector/inspect",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5002",
+					"path": [
+						"polaris-service-a",
+						"inspector",
+						"inspect"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

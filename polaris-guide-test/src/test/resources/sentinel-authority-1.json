@@ -1,0 +1,7 @@
+[
+    {
+        "resource": "sentinel-resource",
+        "limitApp": "polaris-service-a",
+        "strategy": 0
+    }
+]

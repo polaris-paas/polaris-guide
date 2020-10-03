@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.nepxion.polaris</groupId>
+    <artifactId>polaris-guide</artifactId>
+    <name>Nepxion Polaris Guide</name>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <version>0.0.1</version>
+
+    <modules>
+        <module>polaris-guide-api-a</module>
+        <module>polaris-guide-api-b</module>
+        <module>polaris-guide-service-a</module>
+        <module>polaris-guide-service-b</module>
+        <module>polaris-guide-gateway</module>
+        <module>polaris-guide-zuul</module>
+        <module>polaris-guide-console</module>
+        <module>polaris-guide-test</module>
+    </modules>
+</project>
