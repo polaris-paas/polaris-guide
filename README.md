@@ -41,31 +41,33 @@
 - 对于熟练级玩家，参考[指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/master)，分支为master。除上述《极简版》功能外，涉及到指南篇里的绝大多数高级功能
 - 对于骨灰级玩家，参考[指南示例高级版](https://github.com/Nepxion/DiscoveryGuide/tree/premium)，分支为premium。除上述《精进版》功能外，涉及到指南篇里的ActiveMQ、MongoDB、RabbitMQ、Redis、RocketMQ、MySQL等高级调用链和灰度调用链的整合
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】和Polaris【北极星】联合架构图
+![](http://nepxion.gitee.io/docs/icon-doc/Logo64.png) Discovery【探索】和Polaris【北极星】架构体系
+
+① Discovery【探索】和Polaris【北极星】联合架构图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/Architecture.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】和Polaris【北极星】联合拓扑图
+② Discovery【探索】和Polaris【北极星】联合拓扑图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/Topology.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Polaris【北极星】分层架构图
+③ Polaris【北极星】分层架构图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/Layer.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】实施方案图
+④ Discovery【探索】实施方案图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/All.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】域网关实施图
+⑤ Discovery【探索】域网关实施图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/DomainEnable.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】非域网关实施图
+⑥ Discovery【探索】非域网关实施图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/DomainDisable.jpg)
 
-![](http://nepxion.gitee.io/docs/icon-doc/information.png) Discovery【探索】全局订阅实施图
+⑦ Discovery【探索】全局订阅实施图
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/GlobalSub.jpg)
 
