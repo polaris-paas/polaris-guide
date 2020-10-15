@@ -11,7 +11,7 @@
 - Nepxion开源社区创始人
 - 平安银行下一代PaaS平台Halo基础服务框架创始人
 - 2020年阿里巴巴中国云原生峰会出品人
-- Nacos Group Member，Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing等开源产品Committer & Contributors
+- Nacos Group Member，Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing等开源产品Committer & Contributor
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/Logo64.png) Polaris【北极星】企业级云原生微服务框架
 
