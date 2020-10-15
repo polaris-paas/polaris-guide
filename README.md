@@ -10,7 +10,8 @@
 ![](http://nepxion.gitee.io/docs/icon-doc/star1.png) 首席作者简介
 - Nepxion开源社区创始人
 - 2020年阿里巴巴中国云原生峰会出品人
-- Nacos Group Member，Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing等开源产品Committer & Contributor
+- Nacos Group Member
+- Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing Committer & Contributor
 
 ![](http://nepxion.gitee.io/docs/polaris-doc/Logo64.png) Polaris【北极星】企业级云原生微服务框架
 
