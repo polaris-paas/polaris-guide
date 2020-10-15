@@ -9,7 +9,6 @@
 
 ![](http://nepxion.gitee.io/docs/icon-doc/star1.png) 首席作者简介
 - Nepxion开源社区创始人
-- 平安银行下一代PaaS平台Halo基础服务框架创始人
 - 2020年阿里巴巴中国云原生峰会出品人
 - Nacos Group Member，Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing等开源产品Committer & Contributor
 
