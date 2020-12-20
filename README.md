@@ -1,6 +1,6 @@
 ![](http://nepxion.gitee.io/docs/polaris-doc/Banner.png)
 
-# Polaris【北极星】企业级云原生微服务框架 
+# Polaris【北极星】企业级云原生微服务框架
 [![Spring Boot](https://img.shields.io/maven-central/v/org.springframework.boot/spring-boot-dependencies.svg?label=Spring%20Boot&logo=Spring)](https://search.maven.org/artifact/org.springframework.boot/spring-boot-dependencies)  [![Spring Cloud](https://img.shields.io/maven-central/v/org.springframework.cloud/spring-cloud-dependencies.svg?label=Spring%20Cloud&logo=Spring)](https://search.maven.org/artifact/org.springframework.cloud/spring-cloud-dependencies)  [![Spring Cloud Alibaba](https://img.shields.io/maven-central/v/com.alibaba.cloud/spring-cloud-alibaba-dependencies.svg?label=Spring%20Cloud%20Alibaba&logo=Spring)](https://search.maven.org/artifact/com.alibaba.cloud/spring-cloud-alibaba-dependencies)  [![Nepxion Discovery](https://img.shields.io/maven-central/v/com.nepxion/discovery.svg?label=Nepxion%20Discovery&logo=Anaconda)](https://search.maven.org/artifact/com.nepxion/discovery)
 
 [![Polaris DOC PDF](https://img.shields.io/badge/Polaris%20Doc-PDF-brightgreen?logo=Adobe%20Acrobat%20Reader)](http://nepxion.gitee.io/docs/link-doc/polaris-pdf.html)  [![Polaris DOC HTML](https://img.shields.io/badge/Polaris%20Doc-HTML-brightgreen?logo=Microsoft%20Edge)](http://nepxion.gitee.io/docs/link-doc/polaris-html.html)
