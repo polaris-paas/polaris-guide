@@ -16,7 +16,7 @@ echo -n $'\e'"]0;Nepxion Polaris Service A"$'\a'
 DOCKER_HOST='tcp://localhost:2375'
 
 # 在DEV（本地）环境下，配置Docker容器连接容器外中间件服务器的地址
-NACOS_SERVER=92.168.0.107:8848
+NACOS_SERVER=192.168.0.107:8848
 
 IMAGE_NAME=polaris-service-a
 MACHINE_PORT=3001
