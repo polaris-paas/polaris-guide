@@ -19,7 +19,7 @@
 @set DOCKER_HOST=tcp://localhost:2375
 
 @rem 在DEV（本地）环境下，配置Docker容器连接容器外中间件服务器的地址
-@set NACOS_SERVER=10.0.75.1:8848
+@set NACOS_SERVER=192.168.0.107:8848
 
 @set IMAGE_NAME=polaris-service-a
 @set MACHINE_PORT=3001
