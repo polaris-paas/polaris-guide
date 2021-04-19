@@ -3,7 +3,9 @@ package com.nepxion.polaris.guide.service.feign;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,6 +16,7 @@ import com.nepxion.discovery.plugin.strategy.context.StrategyContextHolder;
 import com.nepxion.polaris.guide.service.core.CoreImpl;
 
 @RestController
+@RefreshScope
 @ConditionalOnProperty(name = DiscoveryConstant.SPRING_APPLICATION_NAME, havingValue = "polaris-service-a")
 public class AFeignImpl extends CoreImpl implements AFeign {
     private static final Logger LOG = LoggerFactory.getLogger(AFeignImpl.class);
@@ -23,6 +26,9 @@ public class AFeignImpl extends CoreImpl implements AFeign {
 
     @Autowired
     private StrategyContextHolder strategyContextHolder;
+
+    @Value("${user.name}")
+    private String userName;
 
     @Override
     @SentinelResource(value = "sentinel-resource", blockHandler = "handleBlock", fallback = "handleFallback")
@@ -37,6 +43,8 @@ public class AFeignImpl extends CoreImpl implements AFeign {
         }*/
 
         LOG.info("Header token: {}, userId: {}", strategyContextHolder.getHeader("token"), strategyContextHolder.getHeader("userId"));
+
+        LOG.info("User name：{}", userName);
 
         LOG.info("调用路径：{}", value);
 
