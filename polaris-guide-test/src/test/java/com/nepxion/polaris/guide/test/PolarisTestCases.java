@@ -3,7 +3,7 @@ package com.nepxion.polaris.guide.test;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class PolarisTestCases {
             resultList.add(result);
         }
 
-        Assert.assertEquals(noRepeatCount, 4);
+        Assertions.assertEquals(noRepeatCount, 4);
     }
 
     @DTestConfig(group = "#group", serviceId = "#serviceId", executePath = "gray-strategy-version.xml", resetPath = "gray-default.xml")
@@ -49,9 +49,9 @@ public class PolarisTestCases {
             int index = result.indexOf("[V=1.0]");
             int lastIndex = result.lastIndexOf("[V=1.0]");
 
-            Assert.assertNotEquals(index, -1);
-            Assert.assertNotEquals(lastIndex, -1);
-            Assert.assertNotEquals(index, lastIndex);
+            Assertions.assertNotEquals(index, -1);
+            Assertions.assertNotEquals(lastIndex, -1);
+            Assertions.assertNotEquals(index, lastIndex);
         }
     }
 
@@ -69,9 +69,9 @@ public class PolarisTestCases {
             int index = result.indexOf("[R=dev]");
             int lastIndex = result.lastIndexOf("[R=dev]");
 
-            Assert.assertNotEquals(index, -1);
-            Assert.assertNotEquals(lastIndex, -1);
-            Assert.assertNotEquals(index, lastIndex);
+            Assertions.assertNotEquals(index, -1);
+            Assertions.assertNotEquals(lastIndex, -1);
+            Assertions.assertNotEquals(index, lastIndex);
         }
     }
 
@@ -88,7 +88,7 @@ public class PolarisTestCases {
             }
         }
 
-        Assert.assertEquals(count, 4);
+        Assertions.assertEquals(count, 4);
     }
 
     @DTestConfig(group = "DEFAULT_GROUP", serviceId = "sentinel-authority-polaris-service-b", executePath = "sentinel-default.json", resetPath = "sentinel-authority-1.json")
@@ -104,6 +104,6 @@ public class PolarisTestCases {
             }
         }
 
-        Assert.assertEquals(count, 4);
+        Assertions.assertEquals(count, 4);
     }
 }
