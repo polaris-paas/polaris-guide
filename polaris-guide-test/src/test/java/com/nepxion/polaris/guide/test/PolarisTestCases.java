@@ -22,7 +22,7 @@ public class PolarisTestCases {
         int noRepeatCount = 0;
         List<String> resultList = new ArrayList<String>();
         for (int i = 0; i < 4; i++) {
-            String result = testRestTemplate.getForEntity(testUrl, String.class).getBody();
+            String result = testRestTemplate.postForEntity(testUrl, "gateway", String.class).getBody();
 
             LOG.info("Result{} : {}", i + 1, result);
 
