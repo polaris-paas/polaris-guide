@@ -21,11 +21,12 @@ public class PolarisGatewayRouteFilter implements GlobalFilter, Ordered {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpRequest.Builder requestBuilder = exchange.getRequest().mutate();
 
-        String token = exchange.getRequest().getHeaders().getFirst("token");
+        ServerHttpRequest request = exchange.getRequest();
+        String token = request.getHeaders().getFirst("token");
         if (StringUtils.equals(token, "abc")) {
-            GatewayStrategyFilterResolver.setHeader(requestBuilder, "userid", "zhangsan", false);
+            GatewayStrategyFilterResolver.setHeader(request, requestBuilder, "userid", "zhangsan", false);
         } else {
-            GatewayStrategyFilterResolver.setHeader(requestBuilder, "userid", "lisi", false);
+            GatewayStrategyFilterResolver.setHeader(request, requestBuilder, "userid", "lisi", false);
         }
 
         ServerHttpRequest newRequest = requestBuilder.build();
