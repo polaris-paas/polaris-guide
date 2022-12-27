@@ -101,6 +101,7 @@ Polaris为Discovery高级定制版，特色功能
     - [高级版指南示例](https://github.com/Nepxion/DiscoveryGuide/tree/6.x.x-complex)，分支为6.x.x-complex
 - Spring Cloud 202x版本
     - [极简版指南示例](https://github.com/Nepxion/DiscoveryGuide/tree/master-simple)，分支为master-simple
+    - [极简版本地化指南示例](https://github.com/Nepxion/DiscoveryGuide/tree/master-simple-native)，分支为master-simple-native
     - [集成版指南示例](https://github.com/Nepxion/DiscoveryGuide/tree/master)，分支为master
 
 ## 请联系我
