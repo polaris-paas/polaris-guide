@@ -1,7 +1,7 @@
 ![](https://nepxion.github.io/Discovery/docs/polaris-doc/Banner.png)
 
 # Polaris【北极星】云原生微服务解决方案
-[![Wiki](https://badgen.net/badge/icon/wiki?icon=wiki&label=GitHub)](https://github.com/Nepxion/Discovery/wiki)  [![Wiki](https://badgen.net/badge/icon/wiki?icon=wiki&label=Gitee)](https://gitee.com/nepxion/Discovery/wikis/pages?sort_id=3993615&doc_id=1124387)  [![Discovery PPT](https://img.shields.io/badge/Discovery%20-ppt-brightgreen?logo=Microsoft%20PowerPoint)](https://nepxion.github.io/Discovery/docs/link-doc/discovery-ppt.html)  [![Discovery Page](https://img.shields.io/badge/Discovery%20-page-brightgreen?logo=Microsoft%20Edge)](https://nepxion.github.io/Discovery/)  [![Discovery Platform Page](https://img.shields.io/badge/Discovery%20Platform%20-page-brightgreen?logo=Microsoft%20Edge)](https://nepxion.github.io/DiscoveryPlatform)  [![Polaris Page](https://img.shields.io/badge/Polaris%20-page-brightgreen?logo=Microsoft%20Edge)](https://polaris-paas.github.io/polaris-wiki)
+[![Wiki](https://badgen.net/badge/icon/wiki?icon=wiki&label=GitHub)](https://github.com/Nepxion/Discovery/wiki)  [![Wiki](https://badgen.net/badge/icon/wiki?icon=wiki&label=Gitee)](https://gitee.com/nepxion/Discovery/wikis/pages?sort_id=3993615&doc_id=1124387)  [![Discovery PPT](https://img.shields.io/badge/Discovery%20-ppt-brightgreen?logo=Microsoft%20PowerPoint)](https://nepxion.github.io/Discovery/docs/link-doc/discovery-ppt.html)  [![Discovery Page](https://img.shields.io/badge/Discovery%20-page-brightgreen?logo=Microsoft%20Edge)](https://nepxion.github.io/Discovery/)  [![Discovery Platform Page](https://img.shields.io/badge/Discovery%20Platform%20-page-brightgreen?logo=Microsoft%20Edge)](https://nepxion.github.io/DiscoveryPlatform)  [![Discovery Desktop Page](https://img.shields.io/badge/Discovery%20Desktop%20-page-brightgreen?logo=Microsoft%20Edge)](https://nepxion.github.io/DiscoveryDesktop)  [![Polaris Page](https://img.shields.io/badge/Polaris%20-page-brightgreen?logo=Microsoft%20Edge)](https://polaris-paas.github.io/polaris-wiki)
 
 <a href="https://github.com/polaris-paas" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/github.png"></a>&nbsp;  <a href="https://gitee.com/polaris-paas" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/gitee.png"></a>&nbsp;  <a href="https://search.maven.org/search?q=g:com.nepxion" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/maven.png"></a>&nbsp;  <a href="https://nepxion.github.io/Discovery/docs/contact-doc/wechat.jpg" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/wechat.png"></a>&nbsp;  <a href="https://nepxion.github.io/Discovery/docs/contact-doc/dingding.jpg" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/dingding.png"></a>&nbsp;  <a href="https://nepxion.github.io/Discovery/docs/contact-doc/gongzhonghao.jpg" tppabs="#" target="_blank"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/gongzhonghao.png"></a>&nbsp;  <a href="mailto:1394997@qq.com" tppabs="#"><img width="25" height="25" src="https://nepxion.github.io/Discovery/docs/icon-doc/email.png"></a>
 
@@ -81,8 +81,9 @@ Polaris为Discovery高级定制版，特色功能
 ③ 最佳实践
 - [最佳实践PPT版](https://nepxion.github.io/Discovery/docs/link-doc/discovery-ppt-1.html)
 
-④ 平台界面
+④ 平台桌面
 - [平台界面WIKI版](http://nepxion.com/discovery-platform)
+- [图形桌面WIKI版](http://nepxion.com/discovery-desktop)
 
 ⑤ 框架源码
 - [框架源码Github版](https://github.com/Nepxion/Discovery)
